@@ -1,0 +1,29 @@
+:root {
+  /* Фон и типографика */
+  --page-background-image: url(../images/cover-image-dark.png);
+  --main-font: 'IBM Plex mono';
+  --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
+  /* Акценты и декор */
+  --title-shadow: 4px 4px 0 var(--accent-color);
+  --header-decor-display: block;
+  --footer-text-shadow: none;
+  --background-color: #000028;
+  --decors-color: #FF0070;
+
+  /* Меню тем */
+  --theme-menu-color: #FF0070;
+  --hover-button-theme-menu: rgba(255, 0, 112, 0.4);
+
+  /* Заголовки */
+  --title-color: #DB00FF;
+  --title-shadow-color: #FF0070;
+  --title-decor-bg: #FF0070;
+  --title-decor-text-color: #000028;
+
+  /* Контент */
+  --main-section-title-color: #FF0070;
+  --article-text-color: #F1B2CE;
+  --link-shadow-color: #FF0070;
+  --link-focus-color: #F1B2CE;
+}
